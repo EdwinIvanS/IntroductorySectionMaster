@@ -1,8 +1,35 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+:root{
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
 }
 
-a {
-  color: #00B7FF;
+body{
+  background-color: var(--Violet);
+}
+
+.titulo img {
+  position: absolute;
+}
+
+.seccion-principal img{
+  position: absolute;
+}
+
+.ventana-img img {
+  margin-top: 150px;
+  position: relative;
+}
+
+.principal {
+  border: 1px red solid;
+  align-items: center;
+  display: flex;
+}
+
+.ventana-img{
+  border: 1px rgb(76, 0, 255) solid;
+}
+
+.principal-description{
+  border: 1px rgb(0, 255, 98) solid;
 }
